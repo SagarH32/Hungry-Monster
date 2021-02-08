@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --design-color: #ff5733;
+  --design-color-dark: #ff5731;
+}
+body {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
+}
+#navbarItems {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #273746;
+  font-size: 20px;
+  font-weight: 500;
+}
+nav ul li a:hover {
+  transition: 0.5s;
+  color: #ff5731;
+}
+
+.meal-search {
+  margin: 70px 0;
+}
+.meal-search cite {
+  font-size: 16px;
+}
+.meal-search-box {
+  display: flex;
+  align-items: stretch;
+  width: 50%;
+  margin: auto;
+}
+.search-control,
+.search-btn {
+  width: 100%;
+}
+.search-control {
+  padding: 0 16px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: inherit;
+  outline: 0;
+  border: 2.5px solid var(--design-color);
+  color: var(--design-color);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.search-control::placeholder {
+  color: var(--design-color);
+}
+.search-btn {
+  width: 150px;
+  height: 55px;
+  font-size: 24px;
+  background: var(--design-color);
+  color: #fff;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: all 0.4s linear;
+}
+.search-btn:hover {
+  background: var(--design-color-dark);
+}
+.card {
+  border-radius: 20px;
+}
+.card-img-top {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.meal-item {
+  margin-bottom: 24px;
+}
+li {
+  list-style: none;
+  padding-left: 0;
+}
+ul {
+  padding: 0;
+}
