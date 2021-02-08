@@ -76,6 +76,7 @@ nav ul li a:hover {
 }
 .card {
   border-radius: 20px;
+  box-shadow: 1px 1px 20px gray;
 }
 .card-img-top {
   border-top-right-radius: 20px;
